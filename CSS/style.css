@@ -1,0 +1,808 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+.header{
+    background: white;
+    padding: 30px;
+}
+
+.container{
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.A2{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.A3{
+    color: black;
+    text-decoration: none;
+    margin-left: 30px;
+    transition: .3s linear;
+}
+
+.A3:hover:hover{
+    color: red;
+    transition: .3s linear;
+    font-size: 20px;
+    text-shadow: 0px 0px 15px black;
+}
+
+.img__logo{
+    margin-right: 700px;
+}
+
+.A4{
+    color: black;
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+.A5{
+    margin-left: 100px;
+}
+
+.A5{
+    animation: Ishom 3s infinite;
+}
+
+@keyframes Ishom {
+    0% {
+        transform: perspective(400px) rotateY(0deg);
+    }
+
+    50% {
+        transform: perspective(400px) translateZ(150px) rotateY(180deg);
+    }
+
+    100% {
+        transform: perspective(400px) rotateY(0deg);
+    }
+}
+
+.A6{
+    margin-left: 150px;
+}
+
+.A7{
+    margin-left: 25px;
+}
+
+
+/* === Section A8  Started === */
+
+.An__Excitciting{
+    background: white;
+    padding: 40px;
+}
+
+.A9{
+    display: flex
+}
+
+.A19{
+    display: flex;
+}
+
+.A11{
+    color: #C72535;
+}
+
+.A12{
+    width: 555px;
+    height: 220px;
+    font-size: 60px;
+}
+
+.A13{
+    width: 515px;
+    height: 54px;
+    font-size: 20px;
+}
+
+.button1{
+    color: white;
+    width: 131px;
+    height: 48px;
+    background: #247CC0;
+    border: none;
+    border-radius: 10px;
+    transition: .3s linear;
+}
+
+.button1:hover{
+    color: black;
+    width: 145px;
+    height: 55px;
+    transition: .3s linear;
+    background: red;
+    box-shadow: 0px 0px 25px black;
+}
+
+.A14{
+    display: flex;
+    margin-left: 150px;
+}
+
+.A15{
+    margin-right: 20px;
+}
+
+.A16{
+    opacity: 0.5;
+}
+
+
+/* === Section A8  Finished === */
+
+
+/* === Section Pictures Started  === */
+
+
+.Pictures{
+    background: rgb(240, 238, 238);
+    width: 1140px;
+    height: 180px;
+    display: flex;
+    justify-content: center;    
+}
+
+.A18{
+    display: flex;
+    justify-content: center;     
+    margin-top: 50px;
+}
+
+.A19{
+    margin-left: 100px;
+}
+
+.A19{
+    animation: IshomA3 3s infinite;
+}
+
+@keyframes IshomA3 {
+    0% {
+        transform: perspective(800px) rotateY(0deg);
+    }
+
+    50% {
+        transform: perspective(800px) translateZ(150px) rotateY(180deg);
+    }
+
+    100% {
+        transform: perspective(800px) rotateY(0deg);
+    }
+}
+
+
+
+/* === Section Always in style Started  === */
+
+
+.Always__in-style-content{
+    background: yellow;
+    padding: 40px;
+}
+
+.A24{
+    margin-left: 200px;
+}
+
+.A22{
+    color: rgb(158, 158, 158);
+    width: 277px;
+}
+
+
+.img2{
+    width: 262px;
+    height: 248px;
+}
+
+.Compact{
+    background: rgb(209, 204, 204);
+    padding: 40px;
+    margin-top: 40px;
+}
+
+.A25{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.A26{
+    width: 555px;
+    height: 296px;
+    background: linear-gradient(257.26deg, #008BF0 -13.2%, #D943C9 130.95%);
+}
+
+.A27{
+    color: white;
+    width: 300px;
+    height: 91px;
+    font-size: 31px;
+}
+
+.A28{
+    margin-left: 35px;
+}
+
+.A29{
+    width: 275px;
+    height: 231px;
+}
+
+.A30{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.A29{
+    animation: A3YT .9s infinite;
+}
+
+@keyframes A3YT {
+    0% {
+        transform: perspective(800px) rotateY(0deg);
+    }
+
+    50% {
+        transform: perspective(800px) translateZ(150px) rotateY(100deg);
+    }
+
+    100% {
+        transform: perspective(800px) rotateY(0deg);
+    }
+}
+
+.cards{
+    padding: 40px;
+    background:  rgb(202, 243, 243);
+}
+
+.A31{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1000px;
+}
+
+.A31{
+    margin-top: 40px;
+}
+
+.A32{
+    width: 447px;
+    height: 506px;
+}
+
+.A37{
+    width: 457px;
+    height: 168px;
+    margin-left: 350px;
+    margin-top: 60px;
+}
+
+.A34{
+    margin-right: 15px;
+}
+
+.A35{
+    display: flex;
+}
+
+/* === Section Always in style Finished  === */
+
+
+/* === Section Started Popular Products  === */
+
+.section__popular{
+    padding: 60px;
+}
+
+.A38{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.A39{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.A40{
+    width: 360px;
+    height: 503px;
+    background: rgb(203, 203, 203);
+    border-radius: 10px;
+    transition: .3s linear;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+.A40:hover{
+    background: red;
+    transition: .3s linear;
+    box-shadow: 0px 0px 20px;
+}
+
+
+.img1{
+    width: 286px;
+    height: 273px;
+    margin-left: 30px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.A42{
+    color: aqua;
+    margin-left: 50px;
+    margin-top: 50px;
+    transition: .2s linear;
+}
+
+.A42:hover{
+    color: blue;
+    transition: .2s linear;
+    font-size: 20px;
+}
+
+.A43{
+    color: rgb(95, 95, 95);
+    margin-left: 20px;
+}
+
+.A44{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.A45{
+    display: flex;
+}
+
+.black{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.A46{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.A47{
+    width: 360px;
+    height: 503px;
+    background: rgb(203, 203, 203);
+    border-radius: 10px;
+    transition: .3s linear;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+.A47:hover{
+    background: yellow;
+    transition: .3s linear;
+    box-shadow: 0px 0px 20px;
+}
+
+
+
+/* === Section Finished Popular Products  === */
+
+
+.A50{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.A51{
+    display: flex;
+}
+
+.A52{
+    width: 360px;
+    height: 330px;
+    background: rgb(230, 216, 216);
+    border-radius: 25px;
+    transition: .2s linear;
+    margin-top: 110px;
+}
+
+.A52:hover{
+    background:rgb(0, 255, 30);
+    transition: .2s linear;
+    box-shadow: 0px 0px 25px;
+}
+
+.img2{
+    width: 220px;
+    height: 161px;
+    margin-left: 60px;
+    margin-top: 45px;
+    border-radius: 15px;
+}
+
+.A53{
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+.A54{
+    color:rgb(252, 141, 100) ;
+    margin-left: 50px;
+    transition: .2s linear;
+}
+
+.A54:hover{
+    color: rgb(255, 0, 200);
+    transition: .2s linear;
+    font-size: 20px;
+}
+
+.A51{
+    display: flex
+}
+
+.A55{
+    width: 360px;
+    height: 252px;
+    background: rgb(230, 216, 216);
+    border-radius: 25px;
+    transition: .2s linear;
+    margin-left: 30px;
+    margin-top: 150px;
+}
+
+.A55:hover{
+    background:rgb(0, 255, 30);
+    transition: .2s linear;
+    box-shadow: 0px 0px 25px;
+}
+
+.img3{
+    width: 297px;
+    height: 351px;
+    margin-left: 35px;
+    margin-top: 45px;
+    border-radius: 15px;
+}
+
+.A56{
+    width: 360px;
+    height: 432px;
+    background: rgb(230, 216, 216);
+    border-radius: 25px;
+    transition: .2s linear;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.A56:hover{
+    background:rgb(0, 255, 30);
+    transition: .2s linear;
+    box-shadow: 0px 0px 25px;
+}
+
+.A57{
+    width: 360px;
+    height: 456px;
+    background: rgb(230, 216, 216);
+    border-radius: 25px;
+    transition: .2s linear;
+    margin-top: 80px;
+}
+
+.A57:hover{
+    background:rgb(255, 0, 255);
+    transition: .2s linear;
+    box-shadow: 0px 0px 25px;
+}
+
+.A58{
+    width: 360px;
+    height: 252px;
+    background: rgb(230, 216, 216);
+    border-radius: 25px;
+    transition: .2s linear;
+    margin-left: 30px;
+}
+
+.A58:hover{
+    background:rgb(255, 0, 255);
+    transition: .2s linear;
+    box-shadow: 0px 0px 25px;   
+}
+
+.A59{
+    display: flex;
+}
+
+.A60{
+    width: 360px;
+    height: 252px;
+    background: rgb(230, 216, 216);
+    border-radius: 25px;
+    transition: .2s linear;
+    margin-left: 30px;
+}
+
+.A60:hover{
+    background:rgb(255, 0, 255);
+    transition: .2s linear;
+    box-shadow: 0px 0px 25px;
+}
+
+.A61{
+    width: 360px;
+    height: 252px;
+    background: rgb(230, 216, 216);
+    border-radius: 25px;
+    transition: .2s linear;
+    margin-left: 30px; 
+    margin-top: 30px;
+}
+
+.A61:hover{
+    background:rgb(255, 0, 255);
+    transition: .2s linear;
+    box-shadow: 0px 0px 25px;
+}
+
+.A63{
+    width: 360px;
+    height: 354px;
+    background: rgb(230, 216, 216);
+    border-radius: 25px;
+    transition: .2s linear;
+    margin-left: 30px; 
+    margin-top: 80px;
+}
+
+.A63:hover{
+    background:rgb(255, 0, 255);
+    transition: .2s linear;
+    box-shadow: 0px 0px 25px;
+}
+
+
+/* === Section Pictures  Finished === */
+
+
+
+/* === Section Contact  Started === */
+
+.Contact{
+    background: yellow;
+    padding: 100px;
+    margin-top: 150px;
+    transition: .2s linear;
+}
+
+.Contact:hover{
+    background: aqua;
+    transition: .2s linear;
+}
+
+.A65{
+    display: flex;
+}
+
+.A67{
+    width: 360px;
+    height: 42px;
+}
+
+.A68{
+    color: white;
+    width: 122px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 20px;
+    transition: .2s linear;
+    background: rgb(0, 51, 255)
+    
+}
+
+.A68:hover{
+    color: black;
+    background: red;
+    transition: .2s linear;
+    box-shadow: 0px 0px 11px;
+}
+
+.A69{
+    width: 400px;
+    height: 40px;
+}
+
+.A71{
+    width: 400px;
+    height: 45px;
+    border: none;
+    border-radius: 6px;
+    margin-top: 4px;
+}
+
+.A72{
+    display: flex;
+    margin-left: 350px;
+    margin-top: 60px;
+}
+
+.footer{
+    background: #030D15;
+    padding: 40px;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* === Section Contact  Finished === */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
